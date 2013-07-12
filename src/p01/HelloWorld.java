@@ -15,6 +15,7 @@ public class HelloWorld {
 	 * HelloWorld を出力するだけの簡単なお仕事
 	 */
 	void exec(){
+		System.out.println("aaa");
 		System.out.println("======");
 		System.out.println("HelloWorld!");
 	}
