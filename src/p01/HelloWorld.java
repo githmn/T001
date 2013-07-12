@@ -2,9 +2,18 @@ package p01;
 
 public class HelloWorld {
 
+	/**
+	 * メインクラス
+	 * @param args 使わない
+	 */
 	public static void main(String args[]){
-		System.out.println("HeeloWorld!");
-		System.out.println("aaa");
+		new HelloWorld().exec();
 	}
 	
+	/**
+	 * HelloWorld を出力するだけの簡単なお仕事
+	 */
+	void exec(){
+		System.out.println("HelloWorld!");
+	}
 }
