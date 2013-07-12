@@ -16,6 +16,7 @@ public class HelloWorld {
 	 */
 	void exec(){
 		System.out.println("aaa");
+		System.out.println("bbb");
 		System.out.println("======");
 		System.out.println("HelloWorld!");
 	}
